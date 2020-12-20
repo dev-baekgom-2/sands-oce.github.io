@@ -3,9 +3,6 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Online Editor</title>
-		<script>
-			$("#editor").load("example.txt");
-		</script>
 		<link rel="stylesheet" href="prism.css">
 		<link rel="stylesheet" href="plugins/line-numbers/prism-line-numbers.css">
 		<link rel="stylesheet" href="prism-live.css">
@@ -37,6 +34,9 @@
 		</div>
 		<script type="text/javascript" src="javascript.js"></script>
 		<textarea id = "editor" class="prism-live line-numbers language-html fill">&lt;!--Type your code here!--&gt;</textarea>
+		<script>
+			$("#editor").load("example.txt");
+		</script>
 		<div id = "preview_wrap">
 			<iframe id="preview" frameborder="0"></iframe>
 		</div>
