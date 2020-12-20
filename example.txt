@@ -4,7 +4,7 @@
         <title>Welcome!</title>
     </head>
     <body>
-        <h1 style = "font-size : 30px;">Hello! Thank you for using this editor!</h1>
+        <h1>Hello! Thank you for using this editor!</h1>
         <ul>
             <li>You can edit code in this text area!</li>
             <li>And you can see the preview in the window next to it!</li>
